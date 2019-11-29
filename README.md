@@ -1,7 +1,21 @@
 # Jenkins-Script
 Jenkins 自动化部署回滚脚本
 
-easy_ci.sh为启动脚本
+auto_build.sh：部署脚本
+
+auto_destroy.sh：清理脚本
+
+auto_rollback.sh：回滚脚本
+
+Dockerfile-java/vue：docker打包
+
+gitlab_token.sh：获取gitlabtoken，这里用不到
+
+isExitFile.sh：校验文件是否存在，这里用不到
+
+sendmail.sh：发送邮件
+
+easy_ci.sh：启动脚本
 
 参数如下：
 
